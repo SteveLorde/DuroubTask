@@ -3,15 +3,18 @@ export default function Navbar() {
     return <>
         <div>
             {/*Logo*/}
-            <img />
+            <img src="" />
 
             {/*NavLinks*/}
             <div>
 
             </div>
 
+            {/*Language Button*/}
             <div>
+                <button>
 
+                </button>
             </div>
         </div>
     </>
