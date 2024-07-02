@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import {Route} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Navbar() {
 
@@ -11,19 +11,19 @@ export default function Navbar() {
             {/*NavLinks*/}
             <div>
                 <ul>
-                    <li><Route path={""}>About Us</Route></li>
-                    <li><Route path={""}>Services</Route></li>
-                    <li><Route path={""}>News</Route></li>
-                    <li><Route path={""}>Careers</Route></li>
-                    <li><Route path={""}>Contact Us</Route></li>
+                    <li><Link className={"navlink"} to={""}>About Us</Link></li>
+                    <li><Link className={"navlink"} to={""}>Services</Link></li>
+                    <li><Link className={"navlink"} to={""}>News</Link></li>
+                    <li><Link className={"navlink"} to={""}>Careers</Link></li>
+                    <li><Link className={"navlink"} to={""}>Contact Us</Link></li>
                 </ul>
             </div>
 
             {/*Language Button*/}
             <div>
                 <button className={"lang-btn"}>
-                    <span>Eng</span>
-                    <span>ع</span>
+                    <span className={"lang"}>Eng</span>
+                    <span className={"lang"}>ع</span>
                 </button>
             </div>
         </div>
